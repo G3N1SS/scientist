@@ -107,6 +107,7 @@ html{
 
 .questions{
   animation: appearing 3s ease-in-out;
+  font-size: 27px;
 }
 
 .a{
