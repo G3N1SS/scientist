@@ -13,10 +13,10 @@ function App() {
     <>
     <div className="page">
       <Routes>
-        <Route path={baseUrl} element={<Navigate to="/" element={<MainPage/>}></Navigate>}/>
+        <Route path={baseUrl} element={<MainPage/>}/>
         <Route path='/' element={<MainPage/>}></Route>
-        <Route path='/cards' element={<Cards/>}/>
-        <Route path='/card' element={<Card/>}/>
+        <Route path='/scientist/cards' element={<Cards/>}/>
+        <Route path='/scientist/card' element={<Card/>}/>
       </Routes>
     </div>
     </>

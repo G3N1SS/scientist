@@ -74,7 +74,7 @@ export default function Card(){
             : 'Ошибка'
             }
         </h2>
-        <Link to="/cards" className="card__button">Назад</Link>
+        <Link to="/scientist/cards" className="card__button">Назад</Link>
     </>
     )
 }

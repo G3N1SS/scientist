@@ -17,7 +17,7 @@ export default function MainPage(){
           <Input placeholder={"5"}></Input>
           <Input placeholder={"6"}></Input>
           <Input placeholder={"7"}></Input>
-          <Link to="/cards" className='confirm'>✓</Link>
+          <Link to='/scientist/cards' className='confirm'>✓</Link>
         </form>
       <ol className={`questions`}>
         <li className='a'>A course or area of study</li>
