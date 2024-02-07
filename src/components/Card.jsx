@@ -44,7 +44,7 @@ export default function Card(){
             Logo9
             : 'Ошибка'
             } alt="" className="card__img" />
-        <h2 className="card__speaker">Speakear:&nbsp;
+        <h2 className="card__speaker">Speaker:&nbsp;
             {config === '1' ? 
             'Жиркин Максим' 
             : 
